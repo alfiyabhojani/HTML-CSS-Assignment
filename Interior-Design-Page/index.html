@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interior Design landing</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- heading -->
+      <div class="heading">
+        <div class="logo">
+          <img src="./image/white-logo.png" alt="" srcset="" class="img-logo" />
+          <div class="toggle" id="toggle">
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          </div>
+        </div>
+        <div class="header-section" id="head__section">
+          <section class="nav__section">
+            <li><a href="#"> About us</a></li>
+            <li><a href="#"> Benefits</a></li>
+            <li><a href="#"> Projects</a></li>
+            <li><a href="#"> Stages</a></li>
+            <li><a href="#"> Services</a></li>
+          </section>
+        </div>
+        <div class="head-last">
+          <div class="icon">
+            <i class="fa fa-phone"></i>
+          </div>
+          <div class="num">
+            <h5>Call us</h5>
+            <h5>+38 (097) 654 54 34</h5>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <!-- Main -->
+      <div class="main">
+        <div class="left">
+          <h1>Interior Design That <br />Care About Details</h1>
+          <div class="puzzle">
+            <button class="solid">
+              <img
+                src="./image/puzzle-piece-solid.svg"
+                alt=""
+                srcset=""
+                class="piece"
+              />
+            </button>
+            <p>We create your space better <br />based on your own idea</p>
+          </div>
+        </div>
+        <div class="vl"></div>
+        <div class="cirle"></div>
+        <div class="right">
+          <div class="learn">LEARN MORE</div>
+          <div class="bulb">
+            <button class="light">
+              <img src="./image/lightbulb-regular.svg" alt="" srcset="" />
+            </button>
+            <p>
+              Innovation Ideas, stylish<br />
+              design <br />for home & Business
+            </p>
+          </div>
+        </div>
+
+        <div class="hrl"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    const toggle = document.getElementById("toggle");
+    toggle.addEventListener("click", () => {
+      const setDisplayValue =
+        document.getElementById("head__section").style.display === "block"
+          ? "none"
+          : "block";
+      document.getElementById("head__section").style.display = setDisplayValue;
+    });
+  </script>
+</html>

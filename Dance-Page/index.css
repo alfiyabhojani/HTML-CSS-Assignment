@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.left img {
+  width: 70%;
+  height: 95%;
+}
+.right {
+  width: 70%;
+}
+.heading {
+  display: flex;
+  padding-left: 400px;
+  justify-content: space-between;
+}
+.header-section {
+  display: inline-flex;
+  justify-content: center;
+  margin: 10px;
+  float: right;
+  position: relative;
+}
+.home {
+  font-weight: 700;
+  margin: 20px auto;
+  font-size: 25px;
+}
+.nav__section {
+  display: flex;
+}
+.nav__section li {
+  list-style: none;
+  margin: 10px 15px;
+}
+.nav__section li a {
+  text-decoration: none;
+  margin: 20px 30px;
+  font-weight: 200;
+  color: black;
+  font-size: 25px;
+}
+.vl {
+  position: absolute;
+  top: -180px;
+  left: 47%;
+  border-left: 2px solid black;
+  height: 500px;
+  transform: rotate(90deg);
+  width: 29px;
+}
+.image {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100px;
+  right: 25px;
+}
+.Icon {
+  width: 30px;
+  margin: 20px 80px;
+  height: 30px;
+}
+.cotton {
+  width: 478px;
+  height: 280px;
+  margin-top: 5px;
+}
+.main {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.cr {
+  float: left;
+  -webkit-text-stroke: 3px #bbb;
+  -webkit-text-fill-color: transparent;
+  font-size: 150px;
+  margin-top: 10px;
+}
+.ti {
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: black;
+  font-size: 140px;
+  margin-left: 100px;
+}
+.main-center {
+  margin-top: 250px;
+  margin-right: 160px;
+}
+.is {
+  color: #bbb;
+  font-size: 40px;
+}
+.check {
+  background: black;
+  width: 279px;
+  height: 50px;
+  font-size: 25px;
+  border: 5px solid black;
+  color: white;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-right {
+  margin-right: 50px;
+}
+.arrow {
+  font-size: 40px;
+  font-weight: 100;
+}
+.bottom-center {
+  margin: 20px 0;
+}
+.quote {
+  font-size: 30px;
+}
+.text {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.list2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+.list-1 {
+  margin: 35px 0;
+  font-weight: 100;
+}
+.hr {
+  border-left: 2px solid black;
+  position: absolute;
+  height: 350px;
+  right: 250px;
+  top: 45px;
+}
+.dot {
+  display: inline-flex;
+  position: absolute;
+  flex-direction: column;
+  right: 240px;
+  top: 45px;
+  margin-top: 20px;
+}
+.dot1 {
+  position: absolute;
+  top: -30px;
+  height: 23px;
+  margin: 10px 0;
+  width: 23px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+  height: 23px;
+  position: relative;
+  top: 40px;
+  margin: 10px 0;
+  width: 23px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+}
+span {
+  content: "\2193";
+  font-size: 300px;
+  font-weight: 100;
+  position: absolute;
+  right: 70px;
+}
+.dot3 {
+  height: 23px;
+  position: relative;
+  top: 80px;
+  width: 23px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot4 {
+  height: 23px;
+  margin: 10px 0;
+  position: relative;
+  top: 120px;
+  width: 23px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot5 {
+  height: 23px;
+  margin: 10px 0;
+  width: 23px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: 150px;
+}
+.bottom-left {
+  position: relative;
+}
+.toggle {
+  display: none;
+  font-size: 28px;
+  margin: 15px 0px;
+  padding-left: 70px;
+}
+@media only screen and (max-width: 480px) {
+  .section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 20%;
+    /* position: absolute;
+    top: 0; */
+  }
+  .nav__section {
+    display: block;
+  }
+  .left img {
+    width: 80%;
+    height: 70%;
+    margin: 0 30px;
+  }
+  .right {
+    width: 80%;
+  }
+  .vl {
+    display: none;
+  }
+  .heading {
+    padding-left: 0;
+  }
+  .toggle {
+    display: block;
+  }
+  .header-section {
+    display: block;
+  }
+  .image {
+    display: block;
+    top: 25px;
+  }
+  .Icon {
+    margin: 0px 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .cr {
+    font-size: 50px;
+    -webkit-text-stroke: 2px #bbb;
+    float: none;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .ti {
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 0;
+  }
+  .main-center {
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+  .is {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+  .check {
+    margin-left: 0;
+    margin-top: 28px;
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .bottom {
+    display: block;
+  }
+
+  .hr {
+    height: 160px;
+    left: 62px;
+    top: 0;
+  }
+  .dot {
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+  .list2 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .list-1 {
+    margin: 10px 0;
+  }
+  .bottom-center {
+    margin: 0 0;
+  }
+  .quote {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  .text {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .bottom-right {
+    margin-right: 0;
+  }
+  .cotton {
+    width: 100%;
+    height: 80%;
+  }
+  .text {
+    font-size: 14px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .dot1 {
+    width: 15px;
+    height: 15px;
+    left: 55px;
+  }
+  .dot2 {
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 55px;
+  }
+  .dot3 {
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    left: 55px;
+  }
+  .dot4 {
+    width: 15px;
+    height: 15px;
+    top: 10px;
+    left: 55px;
+  }
+  .dot5 {
+    width: 15px;
+    height: 15px;
+    top: 12px;
+    left: 55px;
+  }
+  span {
+    bottom: -50px;
+    font-weight: 50px;
+    font-size: 100px;
+    right: 40px;
+  }
+}

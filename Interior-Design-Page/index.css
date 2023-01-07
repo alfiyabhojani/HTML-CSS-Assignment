@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./image/backgr.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  margin: 30px 40px;
+  display: flex;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.nav__section {
+  display: flex;
+}
+hr {
+  border-left: 2px solid white;
+  height: 900px;
+  margin-top: -350px;
+  margin-left: 60%;
+  position: absolute;
+  transform: rotate(90deg);
+}
+.fa-phone {
+  color: white;
+}
+.nav__section li {
+  margin: 30px 25px;
+  font-size: 25px;
+  color: white;
+  list-style: none;
+}
+.nav__section li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15px;
+  transition: 0.5s ease-in;
+}
+.head-last {
+  display: flex;
+}
+.nav__section li a:hover {
+  color: #f3a93d;
+}
+.icon {
+  margin: 30px 10px;
+  font-size: 30px;
+  color: white;
+}
+.num {
+  margin: 25px 0;
+  color: white;
+  font-size: 25px;
+}
+.toggle {
+  display: none;
+  font-size: 25px;
+  margin: 5px 20px;
+  color: white;
+}
+@media only screen and (max-width: 480px) {
+  body {
+    background-size: cover;
+  }
+  .logo {
+    margin: 10px 20px;
+  }
+  .logo img {
+    width: 40px;
+    height: 30px;
+  }
+  .header-section {
+    display: block;
+  }
+  .nav__section {
+    display: block;
+  }
+  .nav__section li {
+    display: block;
+    font-size: 16px;
+  }
+  .nav__section li a {
+    padding: 0;
+  }
+  hr {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
+  .toggle:hover .header-section {
+    display: block;
+  }
+  .icon {
+    margin: 15px auto;
+    font-size: 15px;
+  }
+  .num h5 {
+    font-size: 12px;
+  }
+  .num {
+    /* font-size: 18px; */
+    margin: 10px;
+  }
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+}
+.left h1 {
+  margin-top: 100px;
+  font-size: 80px;
+  margin-left: 50px;
+  color: white;
+}
+.puzzle {
+  color: white;
+  margin-top: 50px;
+  margin-right: 200px;
+  font-size: 25px;
+  background-color: rgba(209, 202, 202, 0.3);
+  height: 180px;
+  position: relative;
+  padding: 10px;
+}
+.solid {
+  width: 90px;
+  height: 38px;
+  border: 5px;
+  border-radius: 15px;
+  background-color: white;
+  margin: 15px 0;
+}
+.piece {
+  transform: rotate(272deg);
+}
+.puzzle p {
+  color: white;
+}
+.vl {
+  border-left: 2px solid white;
+  height: 100px;
+  position: absolute;
+  right: 300px;
+  top: 370px;
+}
+.cirle {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 460px;
+  right: 288px;
+}
+@media only screen and (max-width: 480px) {
+  .left {
+    display: block;
+    margin-top: 0px;
+  }
+
+  .left h1 {
+    margin-top: auto;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .puzzle {
+    margin-right: 0;
+    font-size: 20px;
+    height: auto;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .vl {
+    height: 50px;
+    right: 180px;
+    top: 327px;
+  }
+  .cirle {
+    right: 171px;
+    top: 370px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* right */
+.right {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.learn {
+  width: 244px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  height: 40px;
+}
+.bulb p {
+  color: white;
+  font-size: 26px;
+}
+.light {
+  width: 60px;
+  height: 40px;
+  border: 5px;
+  border-radius: 15px;
+  background-color: white;
+  margin: 15px 0;
+}
+
+.hrl {
+  border-left: 2px solid white;
+  height: 100px;
+  position: absolute;
+  right: 728px;
+  bottom: 200px;
+  transform: rotate(90deg);
+}
+.circle {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: 235px;
+  right: 660px;
+}
+.bulb {
+  color: #fff;
+  margin-top: 50px;
+  margin-right: 40%;
+  background-color: rgba(209, 202, 202, 0.3);
+  font-size: 25px;
+  height: 200px;
+  position: relative;
+  padding: 10px;
+}
+@media only screen and (max-width: 480px) {
+  .right {
+    display: block;
+  }
+  .learn {
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+    margin-top: 90px;
+  }
+  .bulb p {
+    font-size: 20px;
+  }
+  .bulb {
+    width: 70%;
+    height: auto;
+  }
+  .hrl {
+    bottom: -20px;
+    right: 83px;
+    height: 50px;
+  }
+  .circle {
+    bottom: -5px;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+  }
+}

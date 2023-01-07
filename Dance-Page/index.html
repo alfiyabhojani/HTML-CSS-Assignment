@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dance Home Landing Page</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="section">
+        <div class="left">
+          <!-- <img
+            src="./Dance Home Landing Page/Logo.png"
+            alt=""
+            srcset=""
+            class="logo"
+          /> -->
+          <img src="./image/pexels-rfstudio-3819572.jpg" alt="" srcset="" />
+        </div>
+
+        <!-- heading -->
+        <div class="right">
+          <div class="toggle" id="toggle">
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          </div>
+          <div class="vl"></div>
+          <div class="heading">
+            <div class="header-section" id="head__section">
+              <!-- Navigation items Starts -->
+              <section class="nav__section">
+                <li><a href="#" class="home"> Home</a></li>
+                <li><a href="#"> About </a></li>
+                <li><a href="#"> Portfolio</a></li>
+                <li><a href="#"> Contact</a></li>
+              </section>
+            </div>
+          </div>
+          <!-- main -->
+
+          <div class="main">
+            <div class="main-left">
+              <h1 class="cr">Crea-</h1>
+              <br />
+              <h1 class="ti">tivity.</h1>
+            </div>
+            <div class="main-center">
+              <div class="is">
+                <h5>is our <br />ingredient.</h5>
+              </div>
+              <button class="check">Check Our Package</button>
+            </div>
+          </div>
+
+          <div class="image">
+            <img
+              src="./Dance Home Landing Page/Twitter Icon.svg"
+              alt=""
+              srcset=""
+              class="Icon"
+            />
+            <img
+              src="./Dance Home Landing Page/Instagram Icon.svg"
+              alt=""
+              srcset=""
+              class="Icon"
+            />
+            <img
+              src="./Dance Home Landing Page/Facebook Icon.svg"
+              alt=""
+              srcset=""
+              class="Icon"
+            />
+            <img
+              src="./Dance Home Landing Page/Email Icon.svg"
+              alt=""
+              srcset=""
+              class="Icon"
+            />
+          </div>
+
+          <div class="bottom">
+            <div class="bottom-left">
+              <div class="hr"></div>
+              <div class="dot">
+                <div class="dot1 black"></div>
+                <div class="dot2"></div>
+                <div class="dot3"></div>
+                <div class="dot4"></div>
+                <div class="dot5"></div>
+              </div>
+              <div class="list2">
+                <h5 class="list-1 black">Photography</h5>
+                <h5 class="list-1">Videography</h5>
+                <h5 class="list-1">Graphic Design</h5>
+                <h5 class="list-1">Illustration</h5>
+                <h5 class="list-1">Animation</h5>
+              </div>
+            </div>
+
+            <div class="bottom-center">
+              <div class="quote">
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <div class="text">
+                <p>
+                  We help you to create the best graphics,<br />
+                  photos, videos, animations and illustration
+                </p>
+                <div class="girl">
+                  <img
+                    src="./image/pexels-cottonbro-7974875.jpg"
+                    alt=""
+                    srcset=""
+                    class="cotton"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-right">
+              <div class="arrow">
+                <span>&#8595;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const toggle = document.getElementById("toggle");
+    toggle.addEventListener("click", () => {
+      const setDisplayValue =
+        document.getElementById("head__section").style.display === "block"
+          ? "none"
+          : "block";
+      document.getElementById("head__section").style.display = setDisplayValue;
+    });
+  </script>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAAS Landing Page</title>
+    <link rel="stylesheet" href="./index.css" />
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+    </head>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="items">
+        <div class="logo-toggle">
+          <img src="./photo/white-logo.png" alt="" srcset="" class="logo" />
+          <div class="toggle" id="toggle">
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          </div>
+        </div>
+        <div class="header-section" id="head__section">
+          <!-- Navigation items Starts -->
+          <section class="nav__section">
+            <li><a href="#" class="list"> Home</a></li>
+            <li><a href="#"> Services</a></li>
+            <li><a href="#"> Pricing</a></li>
+            <li><a href="#"> Testimonials</a></li>
+            <li><a href="#"> Blog</a></li>
+          </section>
+        </div>
+        <div class="active">
+          <button class="nav-item-active">FREE TRAIL</button>
+        </div>
+      </div>
+
+      <!-- first -->
+      <div class="first">
+        <div class="left">
+          <h1>Codext one of <br />the best system <br />in SAAS</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+            Delectus iste voluptatibus non quaerat labore, <br />
+            nemo quo autem ut sit aliquid dolor error
+          </p>
+        </div>
+        <div class="right">
+          <img src="./image/30495 [Converted]-01.svg" alt="" class="image" />
+        </div>
+      </div>
+    </header>
+
+    <!-- second -->
+    <div class="second">
+      <div class="second-left">
+        <img src="./image/Saas illustration-01.svg" class="image2" alt="" />
+      </div>
+      <div class="second-right">
+        <i class="fa fa-arrow-right1"></i>
+        <i class="fa fa-arrow-right2"></i>
+        <i class="fa fa-arrow-right3"></i>
+
+        <h1>It's helpful for operating <br />system</h1>
+        <h4>Ultra Fast & Secure</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing <br />
+          elit. Similique debitis libero
+        </p>
+        <h4>Allow Customization</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing <br />
+          elit. Similique debitis libero
+        </p>
+        <h4>Smart Contract</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing <br />
+          elit. Similique debitis libero
+        </p>
+      </div>
+    </div>
+
+    <!-- third -->
+    <div class="third">
+      <h1>We Provide Best Feature <br />for Customer</h1>
+      <!-- cards -->
+      <div class="cards">
+        <!-- Card 01 -->
+        <div class="card-active">
+          <img class="card-logo" src="./image/web-developing.svg " />
+          <h3 class="card-head Code">Clean Code</h3>
+          <p class="card-body Code">
+            Lorem ipsum dolor sit <br />
+            amt, consectetur <br />
+            adipiscing.
+          </p>
+        </div>
+        <!-- Card 02 -->
+        <div class="card">
+          <img class="card-logo" src="./image/data-analytics.svg" />
+          <h3 class="card-head">Data Analytics</h3>
+          <p class="card-body">
+            Lorem ipsum dolor sit <br />
+            amt, consectetur <br />
+            adipiscing.
+          </p>
+        </div>
+        <!-- Card 03 -->
+        <div class="card">
+          <img class="card-logo" src="./image/secured-profile.svg" />
+          <h3 class="card-head">Fully Secured</h3>
+          <p class="card-body">
+            Lorem ipsum dolor sit <br />
+            amt, consectetur <br />
+            adipiscing.
+          </p>
+        </div>
+        <!-- Card 04 -->
+        <div class="card">
+          <img class="card-logo" src="./image/support.svg" />
+          <h3 class="card-head">24/7 Support</h3>
+          <p class="card-body">
+            Lorem ipsum dolor sit <br />
+            amt, consectetur <br />
+            adipiscing.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fourth"></div>
+  </body>
+
+  <script>
+    const toggle = document.getElementById("toggle");
+    toggle.addEventListener("click", () => {
+      const setDisplayValue =
+        document.getElementById("head__section").style.display === "block"
+          ? "none"
+          : "block";
+      document.getElementById("head__section").style.display = setDisplayValue;
+    });
+  </script>
+</html>
